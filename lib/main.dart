@@ -114,6 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Row(
             children: <Widget>[
               _buildButton('0'),
+              _buildButton('.'),
               _buildButton('C'),
               _buildButton('='),
               _buildButton('+'),
